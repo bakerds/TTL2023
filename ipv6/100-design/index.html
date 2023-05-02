@@ -8,27 +8,27 @@
       
       
       
-        <link rel="canonical" href="https://ttl.iu13.net/ipv6/">
+        <link rel="canonical" href="https://ttl.iu13.net/ipv6/100-design/">
       
       
-        <link rel="prev" href="..">
+        <link rel="prev" href="../">
       
       
-        <link rel="next" href="100-design/">
+        <link rel="next" href="../200-routing/">
       
-      <link rel="icon" href="../assets/images/favicon.png">
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.1.8">
     
     
       
-        <title>Introduction - Tech Talk Live 2023</title>
+        <title>Network Design - Segmentation - Tech Talk Live 2023</title>
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.ded33207.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ded33207.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.a0c5b2b5.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.a0c5b2b5.min.css">
       
       
 
@@ -44,14 +44,14 @@
       
     
     
-    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
     
     
     
-   <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
         html.glightbox-open { overflow: initial; height: 100%; }
         .gslide-title { margin-top: 0px; user-select: text; }
         .gslide-desc { color: #666; user-select: text; }
@@ -62,7 +62,7 @@
             body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
             body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
             body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}
-            </style> <script src="../assets/javascripts/glightbox.min.js"></script></head>
+            </style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -84,7 +84,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#introduction" class="md-skip">
+        <a href="#network-design-segmentation" class="md-skip">
           Skip to content
         </a>
       
@@ -98,7 +98,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href=".." title="Tech Talk Live 2023" class="md-header__button md-logo" aria-label="Tech Talk Live 2023" data-md-component="logo">
+    <a href="../.." title="Tech Talk Live 2023" class="md-header__button md-logo" aria-label="Tech Talk Live 2023" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -117,7 +117,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Introduction
+              Network Design - Segmentation
             
           </span>
         </div>
@@ -173,7 +173,7 @@
 
 
   <li class="md-tabs__item">
-    <a href=".." class="md-tabs__link">
+    <a href="../.." class="md-tabs__link">
       Home
     </a>
   </li>
@@ -190,7 +190,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="./" class="md-tabs__link md-tabs__link--active">
+      <a href="../" class="md-tabs__link md-tabs__link--active">
         Introduction to IPv6
       </a>
     </li>
@@ -206,7 +206,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../routing-security/" class="md-tabs__link">
+      <a href="../../routing-security/" class="md-tabs__link">
         Routing Security — BGP, IRR, and RPKI
       </a>
     </li>
@@ -219,7 +219,7 @@
 
 
   <li class="md-tabs__item">
-    <a href="../about/" class="md-tabs__link">
+    <a href="../../about/" class="md-tabs__link">
       About the presenter
     </a>
   </li>
@@ -248,7 +248,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="Tech Talk Live 2023" class="md-nav__button md-logo" aria-label="Tech Talk Live 2023" data-md-component="logo">
+    <a href="../.." title="Tech Talk Live 2023" class="md-nav__button md-logo" aria-label="Tech Talk Live 2023" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -267,7 +267,7 @@
   
   
     <li class="md-nav__item">
-      <a href=".." class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         Home
       </a>
     </li>
@@ -309,6 +309,20 @@
               
   
   
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
     
   
   
@@ -321,12 +335,12 @@
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          Introduction
+          Network Design - Segmentation
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        Introduction
+        Network Design - Segmentation
       </a>
       
         
@@ -345,36 +359,29 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#what-is-ipv6" class="md-nav__link">
-    What is IPv6?
+  <a href="#why-is-segmentation-important" class="md-nav__link">
+    Why is segmentation important?
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#comparison-of-ipv4-and-ipv6" class="md-nav__link">
-    Comparison of IPv4 and IPv6
+  <a href="#how-to-segment" class="md-nav__link">
+    How to segment?
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#problems-with-ipv4" class="md-nav__link">
-    Problems with IPv4
+  <a href="#what-to-segment" class="md-nav__link">
+    What to segment?
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#improvements-with-ipv6" class="md-nav__link">
-    Improvements with IPv6
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#why-deploy-ipv6" class="md-nav__link">
-    Why deploy IPv6?
+  <a href="#ip-address-management-subnet-planning" class="md-nav__link">
+    IP Address Management / Subnet Planning
   </a>
   
 </li>
@@ -394,21 +401,7 @@
   
   
     <li class="md-nav__item">
-      <a href="100-design/" class="md-nav__link">
-        Network Design - Segmentation
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="200-routing/" class="md-nav__link">
+      <a href="../200-routing/" class="md-nav__link">
         Routing
       </a>
     </li>
@@ -422,7 +415,7 @@
   
   
     <li class="md-nav__item">
-      <a href="300-host-configuration/" class="md-nav__link">
+      <a href="../300-host-configuration/" class="md-nav__link">
         Host Configuration
       </a>
     </li>
@@ -436,7 +429,7 @@
   
   
     <li class="md-nav__item">
-      <a href="400-implementing/" class="md-nav__link">
+      <a href="../400-implementing/" class="md-nav__link">
         Implementing IPv6
       </a>
     </li>
@@ -450,7 +443,7 @@
   
   
     <li class="md-nav__item">
-      <a href="500-configuring/" class="md-nav__link">
+      <a href="../500-configuring/" class="md-nav__link">
         Configuring IPv6
       </a>
     </li>
@@ -464,7 +457,7 @@
   
   
     <li class="md-nav__item">
-      <a href="lab/" class="md-nav__link">
+      <a href="../lab/" class="md-nav__link">
         Lab
       </a>
     </li>
@@ -513,7 +506,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../routing-security/" class="md-nav__link">
+      <a href="../../routing-security/" class="md-nav__link">
         Introduction
       </a>
     </li>
@@ -527,7 +520,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../routing-security/100-irr/" class="md-nav__link">
+      <a href="../../routing-security/100-irr/" class="md-nav__link">
         IRR — Internet Routing Registry
       </a>
     </li>
@@ -541,7 +534,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../routing-security/200-rpki/" class="md-nav__link">
+      <a href="../../routing-security/200-rpki/" class="md-nav__link">
         RPKI — Resource Public Key Infrastructure
       </a>
     </li>
@@ -563,7 +556,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../about/" class="md-nav__link">
+      <a href="../../about/" class="md-nav__link">
         About the presenter
       </a>
     </li>
@@ -585,163 +578,390 @@
                   
 
 
-<h1 id="introduction">Introduction</h1>
-<h2 id="what-is-ipv6">What is IPv6?</h2>
-<p>IPv6 is the next generation of the Internet Protocol after IPv4, first formalized in RFC 1883 published in 1995</p>
-<h2 id="comparison-of-ipv4-and-ipv6">Comparison of IPv4 and IPv6</h2>
+<h1 id="network-design-segmentation">Network Design - Segmentation</h1>
+<h2 id="why-is-segmentation-important">Why is segmentation important?</h2>
+<p><strong>Efficiency and reliability</strong></p>
+<ul>
+<li>Network segments are typically broadcast domains<ul>
+<li>A broadcast is message that must be delivered to every host in the broadcast domain</li>
+<li>Broadcasts are used by ARP and DHCP, and other protocols</li>
+<li>Putting too many hosts in a single layer 2 segment can create a large volume of broadcast traffic</li>
+<li>Carving layer 2 segments limits broadcast domains to manageable sizes</li>
+</ul>
+</li>
+<li>Switches must learn and store the MAC address of every device in the layer 2 segment<ul>
+<li>Switches have finite memory resources and can only learn a certain number of MAC addresses (16K-112K)</li>
+<li>Creating layer 2 segments limits the number of MAC address each switch needs to learn</li>
+</ul>
+</li>
+<li>Segmenting creates smaller failure domains<ul>
+<li>It is easier to troubleshoot an issue when you can easily identify the scope</li>
+</ul>
+</li>
+</ul>
+<p><strong>Security</strong></p>
+<ul>
+<li>Segmentation makes it easier to control communication between hosts<ul>
+<li>Rather than being able to communicate directly, hosts in different subnets must communicate through a router (and possibly a firewall), which may apply security policy.</li>
+</ul>
+</li>
+<li>Segmentation helps avoid spoofing or impersonation<ul>
+<li>Hosts in one subnet cannot easily impersonate hosts in another subnet</li>
+</ul>
+</li>
+</ul>
+<p><strong>Organization and management</strong></p>
+<ul>
+<li>Segmentation helps to keep the network organized</li>
+<li>Grouping similar devices or users together makes it easier to apply the correct policies</li>
+</ul>
+<h2 id="how-to-segment">How to segment?</h2>
+<p><strong>Layer 2 – VLAN</strong></p>
+<ul>
+<li>VLAN allows a single switch to handle multiple separate layer 2 segments</li>
+<li>VLAN tagging is implemented as an additional header in the layer 2 frame<ul>
+<li>12-bit header field, permitting 4094 VLAN IDs (0 and 4095 are reserved)</li>
+</ul>
+</li>
+<li>Layer 2 frames may be tagged or untagged<ul>
+<li>A tagged frame has a VLAN ID in the range of 1 - 4094 in the header</li>
+<li>An untagged frame has no VLAN ID in the frame header</li>
+</ul>
+</li>
+</ul>
+<p><strong>Layer 3 – IP subnetting</strong></p>
+<ul>
+<li>A unique IP subnet is defined and assigned to each layer 2 segment</li>
+<li>A router is required for communication between subnets</li>
+</ul>
+<h2 id="what-to-segment">What to segment?</h2>
+<p>Functions that should be segmented:</p>
+<ul>
+<li>Infrastructure<ul>
+<li>Network management</li>
+<li>Server management</li>
+<li>DMZ servers</li>
+<li>Internal servers</li>
+<li>Printers</li>
+<li>Security cameras</li>
+<li>Security devices / building access control</li>
+<li>HVAC and building automation</li>
+<li>Phones and phone systems</li>
+</ul>
+</li>
+<li>Users<ul>
+<li>Administrative users – wired</li>
+<li>Administrative users – wireless</li>
+<li>Faculty/staff – wired</li>
+<li>Faculty/staff – wireless</li>
+<li>Students – wired</li>
+<li>Students – wireless</li>
+<li>Guests – wired</li>
+<li>Guests – wireless</li>
+</ul>
+</li>
+</ul>
+<p><strong>Each building/campus should be segmented from the others</strong></p>
+<h2 id="ip-address-management-subnet-planning">IP Address Management / Subnet Planning</h2>
+<p><strong>Subnet size</strong></p>
+<ul>
+<li>IPv4<ul>
+<li>Large enough to accommodate all unique devices that will connect to the subnet within 24-48 hours</li>
+<li>Typically no smaller than /24 (253 host addresses)</li>
+<li>Ideally no larger than /20 (4093 host addresses)</li>
+</ul>
+</li>
+<li>IPv6<ul>
+<li>Always /64 (18 billion billion host addresses)</li>
+</ul>
+</li>
+</ul>
+<p><strong>Allocating address space</strong></p>
+<p>TTL School District:</p>
+<ul>
+<li>6 buildings (2 large, 4 small)</li>
+<li>3,500 students</li>
+</ul>
+<p>How much IP address space should be allocated to each building and to the district?</p>
+<ul>
+<li>IPv4: depends on building population<ul>
+<li>Per-building enrollment:<ul>
+<li>HS - 1400 - /18</li>
+<li>MS - 700 - /18</li>
+<li>EL1 - 350 - /19</li>
+<li>EL2 - 350 - /19</li>
+<li>EL3 - 350 - /19</li>
+<li>EL4 - 350 - /19</li>
+</ul>
+</li>
+<li>Total needed: /16</li>
+</ul>
+</li>
+<li>IPv6: /48 per building (standard allocation - enough for 64K subnets)<ul>
+<li>Total needed: /44 (enough for 16 buildings)</li>
+</ul>
+</li>
+</ul>
+<p><strong>Example IPAM</strong></p>
 <table>
 <thead>
 <tr>
-<th></th>
+<th>Building</th>
 <th>IPv4</th>
 <th>IPv6</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Address length</td>
-<td>32 bits</td>
-<td>128 bits</td>
+<td>HS</td>
+<td><code>10.95.0.0/18</code></td>
+<td><code>2620:1d5:9500::/48</code></td>
 </tr>
 <tr>
-<td>Number of unique addresses</td>
-<td>4.3 billion</td>
-<td>340 billion billion billion billion</td>
+<td>MS</td>
+<td><code>10.95.64.0/18</code></td>
+<td><code>2620:1d5:9501::/48</code></td>
 </tr>
 <tr>
-<td>Address notation</td>
-<td>Decimal, with a <code>.</code> between bytes<br><code>192.0.2.2</code></td>
-<td>Hexadecimal, with a <code>:</code> between two-byte words<br><code>2001:0db8:0000:0000:0000:0000:0000:0123</code><br>May be abbreviated/compressed<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup><br><code>2001:db8::123</code></td>
+<td>EL1</td>
+<td><code>10.95.128.0/19</code></td>
+<td><code>2620:1d5:9502::/48</code></td>
 </tr>
 <tr>
-<td>Subnet notation</td>
-<td>Network ID and subnet mask<br><code>192.0.2.0</code>, <code>255.255.255.0</code><br>CIDR notation<br><code>192.0.2.0/24</code></td>
-<td>Prefix/prefix length<br><code>2001:db8::/64</code></td>
+<td>EL2</td>
+<td><code>10.95.160.0/19</code></td>
+<td><code>2620:1d5:9503::/48</code></td>
 </tr>
 <tr>
-<td>Subnetting</td>
-<td>Variable Length Subnet Mask (VLSM):<br>Subnet size is based on expected number of clients</td>
-<td>Standard subnet size:<br>/64</td>
+<td>EL3</td>
+<td><code>10.95.192.0/19</code></td>
+<td><code>2620:1d5:9504::/48</code></td>
 </tr>
 <tr>
-<td>Fragmentation</td>
-<td>Packets may be fragmented in-flight by routers</td>
-<td>Packets must be sized correctly by the sender</td>
-</tr>
-<tr>
-<td>Number of header fields</td>
-<td>12</td>
-<td>8</td>
-</tr>
-<tr>
-<td>Header Length</td>
-<td>20 bytes, variable</td>
-<td>40 bytes, plus optional extensions</td>
-</tr>
-<tr>
-<td>Header checksum</td>
-<td>Yes</td>
-<td>No</td>
-</tr>
-<tr>
-<td>Host configuration</td>
-<td>Static, DHCP, or APIPA (link-local)</td>
-<td>Static, DHCP, or SLAAC, and link-local</td>
-</tr>
-<tr>
-<td>IP to MAC address resolution</td>
-<td>Address Resolution Protocol (ARP) (broadcast)</td>
-<td>Neighbor Discovery Protocol (NDP) (multicast)</td>
+<td>EL4</td>
+<td><code>10.95.224.0/19</code></td>
+<td><code>2620:1d5:9505::/48</code></td>
 </tr>
 </tbody>
 </table>
-<h2 id="problems-with-ipv4">Problems with IPv4</h2>
-<ul>
-<li>Address exhaustion<ul>
-<li>Difficult/expensive to get IPv4 addresses</li>
-<li>Need for NAT</li>
-</ul>
-</li>
-<li>Internet routing table disaggregation<ul>
-<li>Large blocks are being split up and sold off as demand for IPv4 increases</li>
-</ul>
-</li>
-<li>Forwarding inefficiencies<ul>
-<li>Packet checksum must be recalculated every time the packet is forwaded by a routers due to TTL decrement</li>
-<li>Header length is variable, making it more complicated to identify the fields </li>
-</ul>
-</li>
-<li>Reliance on broadcast for ARP and DHCP</li>
-<li>Server infrastructure required for host configuration</li>
-</ul>
-<h2 id="improvements-with-ipv6">Improvements with IPv6</h2>
-<ul>
-<li>Virtually unlimited address space and subnet size<ul>
-<li>IPv6 addresses are free</li>
-<li>No need for NAT! Native communication between unique IPv6 addresses</li>
-</ul>
-</li>
-<li>No reason not to assign aggregable prefixes</li>
-<li>Forwarding efficiency<ul>
-<li>No packet checksum, and no calculation for the router to perform</li>
-<li>Header length is fixed, so fields are always in the same place</li>
-</ul>
-</li>
-<li>MAC address discovery and host configuration use multicast instead of broadcast</li>
-<li>Very simple host autoconfiguration</li>
-</ul>
-<h2 id="why-deploy-ipv6">Why deploy IPv6?</h2>
-<ul>
-<li>IPv6 is becoming the dominant protocol - adoption in the US is approaching 50%<ul>
-<li><a href="https://www.google.com/intl/en/ipv6/statistics.html" target="_blank">Google IPv6 statistics</a><ul>
-<li>May 2020: 32%</li>
-<li>May 2021: 35%</li>
-<li>May 2022: 40%</li>
-<li>May 2023: 43%</li>
-</ul>
-</li>
-<li>IPv4 will become the minority of traffic</li>
-</ul>
-</li>
-<li>Providers are prioritizing IPv6 deployements<ul>
-<li>New investments into IPv6, less in IPv4</li>
-<li>Facebook - 100% native IPv6 servers, IPv4 services through proxies/load balancers</li>
-<li>T-Mobile - 100% native IPv6 cellular network, IPv4 services via 464XLAT translation</li>
-<li>Most major content providers support IPv6 (Google, Cloudflare, Akamai, Apple, Microsoft, Facebook)</li>
-</ul>
-</li>
-<li>IPv6 is marginally faster<ul>
-<li>Less routing overhead</li>
-<li>Easier forwarding</li>
-</ul>
-</li>
-<li>No NAT required<ul>
-<li>NAT breaks or cripples many peer-to-peer protocols<ul>
-<li>Voice/video calling</li>
-<li>Gaming</li>
-<li>VPN</li>
-</ul>
-</li>
-<li>NAT makes network administration more complicated by obscuring addresses</li>
-</ul>
-</li>
-<li>IPv6 is supported by all major carriers</li>
-<li>Running dual-stack reduces the impact of a problem with one protocol<ul>
-<li>"Happy Eyeballs" (<a href="https://datatracker.ietf.org/doc/html/rfc6555" target="_blank">RFC 6555</a>) is a mechanism used by the client OS to choose IPv6 or IPv4 for a particular connection</li>
-<li>If IPv6 is working, hosts will choose IPv6</li>
-<li>If IPv6 is broken, hosts will pick IPv4</li>
-</ul>
-</li>
-<li>IPv6 is very easy to deploy</li>
-</ul>
-<div class="footnote">
-<hr />
-<ol>
-<li id="fn:1">
-<p>Address compression rules: a single run of sequential zeroes can be replaced with a <code>::</code> and leading zeroes may be dropped in each address chunk&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
-</li>
-</ol>
-</div>
+<p><strong>HS</strong></p>
+<table>
+<thead>
+<tr>
+<th>VLAN ID</th>
+<th>Name</th>
+<th>IPv4</th>
+<th>IPv6</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1100</td>
+<td>Network Management</td>
+<td><code>10.95.1.0/24</code></td>
+<td><code>2620:1d5:9500:1100::/64</code></td>
+</tr>
+<tr>
+<td>1101</td>
+<td>Wireless Management</td>
+<td><code>10.95.2.0/23</code></td>
+<td><code>2620:1d5:9500:1101::/64</code></td>
+</tr>
+<tr>
+<td>1102</td>
+<td>Hypervisor Management</td>
+<td><code>10.95.4.0/24</code></td>
+<td><code>2620:1d5:9500:1102::/64</code></td>
+</tr>
+<tr>
+<td>1103</td>
+<td>Servers</td>
+<td><code>10.95.5.0/24</code></td>
+<td><code>2620:1d5:9500:1103::/64</code></td>
+</tr>
+<tr>
+<td>1104</td>
+<td>DMZ</td>
+<td><code>10.95.6.0/24</code></td>
+<td><code>2620:1d5:9500:1104::/64</code></td>
+</tr>
+<tr>
+<td>1200</td>
+<td>Door Access Control</td>
+<td><code>10.95.7.0/24</code></td>
+<td><code>2620:1d5:9500:1200::/64</code></td>
+</tr>
+<tr>
+<td>1201</td>
+<td>Security Cameras</td>
+<td><code>10.95.8.0/23</code></td>
+<td><code>2620:1d5:9500:1201::/64</code></td>
+</tr>
+<tr>
+<td>1202</td>
+<td>HVAC Controls</td>
+<td><code>10.95.10.0/24</code></td>
+<td><code>2620:1d5:9500:1202::/64</code></td>
+</tr>
+<tr>
+<td>1203</td>
+<td>Phones</td>
+<td><code>10.95.12.0/23</code></td>
+<td><code>2620:1d5:9500:1203::/64</code></td>
+</tr>
+<tr>
+<td>1300</td>
+<td>IT Staff</td>
+<td><code>10.95.20.0/24</code></td>
+<td><code>2620:1d5:9500:1300::/64</code></td>
+</tr>
+<tr>
+<td>1301</td>
+<td>Administrative Staff</td>
+<td><code>10.95.21.0/24</code></td>
+<td><code>2620:1d5:9500:1301::/64</code></td>
+</tr>
+<tr>
+<td>1302</td>
+<td>Staff Wired</td>
+<td><code>10.95.22.0/23</code></td>
+<td><code>2620:1d5:9500:1302::/64</code></td>
+</tr>
+<tr>
+<td>1303</td>
+<td>Student Wired</td>
+<td><code>10.95.24.0/22</code></td>
+<td><code>2620:1d5:9500:1303::/64</code></td>
+</tr>
+<tr>
+<td>1400</td>
+<td>Staff Wireless</td>
+<td><code>10.95.28.0/22</code></td>
+<td><code>2620:1d5:9500:1400::/64</code></td>
+</tr>
+<tr>
+<td>1401</td>
+<td>Student Wireless</td>
+<td><code>10.95.32.0/20</code></td>
+<td><code>2620:1d5:9500:1401::/64</code></td>
+</tr>
+<tr>
+<td>1402</td>
+<td>Guest Wireless</td>
+<td><code>10.95.48.0/20</code></td>
+<td><code>2620:1d5:9500:1402::/64</code></td>
+</tr>
+</tbody>
+</table>
+<p><strong>MS</strong></p>
+<table>
+<thead>
+<tr>
+<th>VLAN ID</th>
+<th>Name</th>
+<th>IPv4</th>
+<th>IPv6</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1100</td>
+<td>Network Management</td>
+<td><code>10.95.65.0/24</code></td>
+<td><code>2620:1d5:9501:1100::/64</code></td>
+</tr>
+<tr>
+<td>1101</td>
+<td>Wireless Management</td>
+<td><code>10.95.66.0/23</code></td>
+<td><code>2620:1d5:9501:1101::/64</code></td>
+</tr>
+<tr>
+<td>1102</td>
+<td>Hypervisor Management</td>
+<td><code>10.95.68.0/24</code></td>
+<td><code>2620:1d5:9501:1102::/64</code></td>
+</tr>
+<tr>
+<td>1103</td>
+<td>Servers</td>
+<td><code>10.95.69.0/24</code></td>
+<td><code>2620:1d5:9501:1103::/64</code></td>
+</tr>
+<tr>
+<td>1104</td>
+<td>DMZ</td>
+<td><code>10.95.70.0/24</code></td>
+<td><code>2620:1d5:9501:1104::/64</code></td>
+</tr>
+<tr>
+<td>1200</td>
+<td>Door Access Control</td>
+<td><code>10.95.71.0/24</code></td>
+<td><code>2620:1d5:9501:1200::/64</code></td>
+</tr>
+<tr>
+<td>1201</td>
+<td>Security Cameras</td>
+<td><code>10.95.72.0/23</code></td>
+<td><code>2620:1d5:9501:1201::/64</code></td>
+</tr>
+<tr>
+<td>1202</td>
+<td>HVAC Controls</td>
+<td><code>10.95.74.0/24</code></td>
+<td><code>2620:1d5:9501:1202::/64</code></td>
+</tr>
+<tr>
+<td>1203</td>
+<td>Phones</td>
+<td><code>10.95.76.0/23</code></td>
+<td><code>2620:1d5:9501:1203::/64</code></td>
+</tr>
+<tr>
+<td>1300</td>
+<td>IT Staff</td>
+<td><code>10.95.84.0/24</code></td>
+<td><code>2620:1d5:9501:1300::/64</code></td>
+</tr>
+<tr>
+<td>1301</td>
+<td>Administrative Staff</td>
+<td><code>10.95.85.0/24</code></td>
+<td><code>2620:1d5:9501:1301::/64</code></td>
+</tr>
+<tr>
+<td>1302</td>
+<td>Staff Wired</td>
+<td><code>10.95.86.0/23</code></td>
+<td><code>2620:1d5:9501:1302::/64</code></td>
+</tr>
+<tr>
+<td>1303</td>
+<td>Student Wired</td>
+<td><code>10.95.88.0/22</code></td>
+<td><code>2620:1d5:9501:1303::/64</code></td>
+</tr>
+<tr>
+<td>1400</td>
+<td>Staff Wireless</td>
+<td><code>10.95.90.0/22</code></td>
+<td><code>2620:1d5:9501:1400::/64</code></td>
+</tr>
+<tr>
+<td>1401</td>
+<td>Student Wireless</td>
+<td><code>10.95.96.0/20</code></td>
+<td><code>2620:1d5:9501:1401::/64</code></td>
+</tr>
+<tr>
+<td>1402</td>
+<td>Guest Wireless</td>
+<td><code>10.95.112.0/20</code></td>
+<td><code>2620:1d5:9501:1402::/64</code></td>
+</tr>
+</tbody>
+</table>
 
 
 
@@ -763,7 +983,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href=".." class="md-footer__link md-footer__link--prev" aria-label="Previous: Home" rel="prev">
+          <a href="../" class="md-footer__link md-footer__link--prev" aria-label="Previous: Introduction" rel="prev">
             <div class="md-footer__button md-icon">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
             </div>
@@ -772,20 +992,20 @@
                 Previous
               </span>
               <div class="md-ellipsis">
-                Home
+                Introduction
               </div>
             </div>
           </a>
         
         
           
-          <a href="100-design/" class="md-footer__link md-footer__link--next" aria-label="Next: Network Design - Segmentation" rel="next">
+          <a href="../200-routing/" class="md-footer__link md-footer__link--next" aria-label="Next: Routing" rel="next">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Network Design - Segmentation
+                Routing
               </div>
             </div>
             <div class="md-footer__button md-icon">
@@ -831,10 +1051,10 @@
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
-    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.sections", "toc.integrate", "navigation.footer"], "search": "../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.sections", "toc.integrate", "navigation.footer"], "search": "../../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../assets/javascripts/bundle.51198bba.min.js"></script>
+      <script src="../../assets/javascripts/bundle.51198bba.min.js"></script>
       
     
   <script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
